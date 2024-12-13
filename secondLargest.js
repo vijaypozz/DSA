@@ -9,6 +9,13 @@ function secondLargest(arr) {
         }
     }
 
+    // for (let i = 2; i < arr.length; i++) {
+    //     console.log(arr[i], "============")
+    //     // if (arr[i] !== arr[arr.length - 1]) {
+    //     //     return "The second largest element is " + arr[i];
+    //     // }    
+    // }
+
     //Start the loop from the second last element (arr.length - 2).
     //Check if the current element is not equal to the largest element (arr[arr.length - 1]).
     // Iteration:
@@ -30,13 +37,13 @@ function secondLargest(arr) {
 
 
     // getSecondLargest(arr) {
-      
+
     //     if (arr.length < 2) {
     //         return -1; // Returning -1 to indicate invalid input, as per typical conventions.
     //     }
-    
+
     //     let largest = -Infinity, secondLargest = -Infinity;
-    
+
     //     for (let num of arr) {
     //         if (num > largest) {
     //             secondLargest = largest;
@@ -45,7 +52,7 @@ function secondLargest(arr) {
     //             secondLargest = num;
     //         }
     //     }
-    
+
     //     return secondLargest === -Infinity ? -1 : secondLargest; // Handle case when no second largest.
     // }
 }
