@@ -19,3 +19,24 @@ function flattenArray(arr,flattenedArray){
    return flattenedArray
 }
 flattenArray(arr,[])
+
+
+// Flattening a deeply nested array
+// Parsing JSON objects
+// Processing file system directories
+// javascript
+// Copy code
+
+
+// function flattenArray(arr, result = []) {
+//     for (let i = 0; i < arr.length; i++) {
+//         if (Array.isArray(arr[i])) {
+//             flattenArray(arr[i], result);
+//         } else {
+//             result.push(arr[i]);
+//         }
+//     }
+//     return result;
+// }
+
+// console.log(flattenArray([1, [2, [3, [4, 5]]]])); // Output: [1, 2, 3, 4, 5]

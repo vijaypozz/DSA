@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.10.7"
+  },
+  "name": "dsa",
+  "version": "1.0.0",
+  "main": "Backtracking.js",
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "undici-types": "^6.20.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
