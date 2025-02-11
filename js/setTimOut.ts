@@ -1,10 +1,10 @@
-// console.log("Before setTimeout");
+console.log("Before setTimeout");
 
-// setTimeout(() => {
-//   console.log("This runs after 100ms");
-// }, 100);
+setTimeout(() => {
+  console.log("This runs after 100ms");
+}, 0);
 
-// console.log("After setTimeout");
+console.log("After setTimeout");
 
 
 

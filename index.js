@@ -12,18 +12,18 @@ app.get('/tasks', (req, res) => {
     res.json(tasks);
 });
 
-// const stockEmitter = new EventEmitter();
+const stockEmitter = new EventEmitter();
 
-// // Emit a stock price update every second
-// setInterval(() => {
-//     const price = (Math.random() * 1000).toFixed(2);
-//     stockEmitter.emit('priceUpdate', price);
-// }, 1000);
+// Emit a stock price update every second
+setInterval(() => {
+    const price = (Math.random() * 1000).toFixed(2);
+    stockEmitter.emit('priceUpdate', price);
+}, 1000);
 
-// // Listen for stock price updates
-// stockEmitter.on('priceUpdate', (price) => {
-//     console.log(`Stock price updated: ₹${price}`);
-// });
+// Listen for stock price updates
+stockEmitter.on('priceUpdate', (price) => {
+    console.log(`Stock price updated: ₹${price}`);
+});
 
 
 
