@@ -14,24 +14,14 @@ fetchData(console.log);  // Output after 2s: Data received
 
 
 
-function promis() {
 
-    return new Promise((resolve, reject) => {
-        resolve("im in") 
 
-    })
-}
-
-async function fetch(params) {
-    
-    try {
-        const data = await promis()
-        console.log(data,"==1=");
-        
-    } catch (error) {
-       console.log(error,"=3==") 
-    }
-
-}
-
-fetch()
+function fetchData(callback) {
+    setTimeout(() => {
+      callback("Data received");
+    }, 1000);
+  }
+  
+  fetchData((result) => console.log(result));
+  
+"A callback is a function passed as an argument to another function, executed after the task is done."

@@ -17,8 +17,8 @@
 // console.log(pushZerosToEnd([1, 2, 0, 4, 3, 0, 5, 0]))
 //  Output: arr[] = [1, 2, 4, 3, 5, 0, 0, 0]
 
-const data = [1, 2, 4, 3, 5, 0, 0, 0]
-console.log(data[0])
+// const data = [1, 2, 4, 3, 5, 0, 0, 0]
+// console.log(data[0])
 
 function pushZerosToEnd(arr) {
     let nonZeroIndex = 0;
@@ -38,8 +38,9 @@ function pushZerosToEnd(arr) {
         }
         // console.log(nonZeroIndex, "=============nonZeroIndex====.")
         // arr[i]++
-    }
+        // console.log(arr)
 
+    }
     return arr;
 }
 
@@ -88,3 +89,12 @@ console.log(pushZerosToEnd([1, 0, 3, 2, 0, 4, 3, 0, 6, 0])); // Output: [1, 2, 4
 // Space Complexity	O(n) (new arrays created)	O(1) (in-place operation)
 // Suitability	Quick and readable	DSA-friendly and scalable
 // By using the optimized version, we align better with DSA principles, making the solution more efficient and applicable in competitive programming or large-scale systems.
+
+// let arr = [10, 20,3,88,90];
+// let i = 3;
+// let nonZeroIndex = 0;
+// it will move to first index
+// // Swap
+// [arr[nonZeroIndex], arr[i]] = [arr[i], arr[nonZeroIndex]];
+
+// console.log(arr); // [20, 10]
