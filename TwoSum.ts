@@ -25,7 +25,12 @@ function twoSum(nums, target) {
     let indexes = [];
 
     for(let i = 0; i < array.length; i++){
+        // console.log(array[i]);
+        
        for(let j = i + 1; j < array.length; j++){
+        // console.log(array[j]);
+
+        // console.log(array[i] , array[j],array[i] + array[j])
           if (array[i] + array[j] === goal) {
         indexes.push(i);
         indexes.push(j);

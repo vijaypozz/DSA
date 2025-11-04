@@ -32,13 +32,14 @@
 // console.log(duplicates);
 
 
-const array = [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 7];
+const array = [1, 2, 3, 4, 6, 1, 2, 3, 4,4, 7];
 const counts = {};
 const duplicates = {};
 
 // count occurrences
 for (let i = 0; i < array.length; i++) {
   let num = array[i];
+  console.log("num====", num)
   if (counts[num]) {
     counts[num]++;
   } else {

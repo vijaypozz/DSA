@@ -1,14 +1,13 @@
 
 
 // function reverseArray(arr) {
-
+  // 2️⃣ Reverse loop:
 //     // for (let i = 0; i < arr.length; i++) {
 //     //     const element = arr[i];
 //     //     console.log(element);
 //     // }
 //     const reversedArr = [];
-
-
+// 2️⃣ Reverse loop:
 //     for (let i = arr.length-1; i >= 0; i--) {
 
 //         reversedArr.push(arr[i]);
